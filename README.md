@@ -15,7 +15,7 @@ python setup.py build_ext --inplace
 
 
 ## If you want to include external C++ libraries
-Let's assume you want to include `boost` library.
+Let's assume you want to include `boost` library, and get a python SWIG of this C++ project including `boost` library.
 
 Then we include the library in the usual way in the `C++` files - e.g. the `example.h` becomes
 ```
