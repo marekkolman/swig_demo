@@ -1,7 +1,9 @@
 # swig_demo
 Simple python SWIG demo
 
-commands to call:
+Make sure you have `anaconda python` installed.
+
+Commands to call to build the python library from C++ files:
 
 ```
 swig -c++ -python example.i
